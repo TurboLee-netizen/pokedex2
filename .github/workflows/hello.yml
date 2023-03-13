@@ -10,3 +10,7 @@ jobs:
     steps:
       - name: Say Hi!
         run: echo "Hi world!"
+      - name: Tell Date
+        run: date
+      - name: Dir Contents
+        run: ls
